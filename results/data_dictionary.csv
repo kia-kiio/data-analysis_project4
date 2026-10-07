@@ -1,0 +1,35 @@
+column,role,dtype,feature_type,description,min,max,mean,median,std,q25,q50,q75,q90,q95,missing_count,unique_count
+X_Minimum,feature,int64,Integer,Minimum X coordinate of defect bounding region,0.0,1705.0,571.1360123647604,435.0,520.690671421655,51.0,435.0,1053.0,1324.0,1538.0,0,962
+X_Maximum,feature,int64,Integer,Maximum X coordinate of defect bounding region,4.0,1713.0,617.9644513137558,467.0,497.62741027528716,192.0,467.0,1072.0,1332.0,1561.0,0,994
+Y_Minimum,feature,int64,Integer,Minimum Y coordinate of defect bounding region,6712.0,12987661.0,1650684.868109222,1204128.0,1774578.4147280133,471253.0,1204128.0,2183073.0,3597508.0,4532922.0,0,1939
+Y_Maximum,feature,int64,Integer,Maximum Y coordinate of defect bounding region,6724.0,12987692.0,1650738.705306543,1204136.0,1774590.089000213,471281.0,1204136.0,2183084.0,3597517.0,4532948.0,0,1940
+Pixels_Areas,feature,int64,Integer,Total area of the defect in pixels,2.0,152655.0,1893.8784131890777,174.0,5168.45955950114,84.0,174.0,822.0,6381.0,11211.0,0,920
+X_Perimeter,feature,int64,Integer,X-direction perimeter measurement of defect region,2.0,10449.0,111.85522926326635,26.0,301.20918709670053,15.0,26.0,84.0,285.0,616.0,0,399
+Y_Perimeter,feature,int64,Integer,Y-direction perimeter measurement of defect region,1.0,18152.0,82.96599690880988,25.0,426.4828792177644,13.0,25.0,83.0,172.0,381.0,0,317
+Sum_of_Luminosity,feature,int64,Integer,Sum of pixel luminosity values in the defect region,250.0,11591414.0,206312.14786192685,19202.0,512293.58760867815,9522.0,19202.0,83011.0,660910.0,1293558.0,0,1909
+Minimum_of_Luminosity,feature,int64,Integer,Minimum pixel luminosity inside defect,0.0,203.0,84.54868624420402,90.0,32.13427570087037,63.0,90.0,106.0,118.0,124.0,0,161
+Maximum_of_Luminosity,feature,int64,Integer,Maximum pixel luminosity inside defect,37.0,253.0,130.19371458011335,127.0,18.69099186688545,124.0,127.0,140.0,143.0,156.0,0,100
+Length_of_Conveyer,feature,int64,Integer,Conveyor position/length measurement during scanning,1227.0,1794.0,1459.1602266872746,1364.0,144.5778233152919,1358.0,1364.0,1650.0,1690.0,1692.0,0,84
+TypeOfSteel_A300,feature,int64,Binary,Binary indicator for steel plate grade A300,0.0,1.0,0.40030911901081917,0.0,0.49008720796047256,0.0,0.0,1.0,1.0,1.0,0,2
+TypeOfSteel_A400,feature,int64,Binary,Binary indicator for steel plate grade A400,0.0,1.0,0.5996908809891809,1.0,0.4900872079604726,0.0,1.0,1.0,1.0,1.0,0,2
+Steel_Plate_Thickness,feature,int64,Integer,Nominal thickness of the steel plate (mm),40.0,300.0,78.73776403915508,70.0,55.08603169202899,40.0,70.0,80.0,175.0,200.0,0,24
+Edges_Index,feature,float64,Continuous,Ratio of boundary/edge pixels to defect area,0.0,0.9952,0.33171519835136526,0.2273,0.2997117487365931,0.0604,0.2273,0.5738,0.8191,0.9029,0,1387
+Empty_Index,feature,float64,Continuous,Ratio of non-defect pixels in defect bounding box,0.0,0.9439,0.41420334878928383,0.4121,0.13726148878404612,0.3158,0.4121,0.5016,0.5898,0.6448,0,1338
+Square_Index,feature,float64,Continuous,Measure of defect squareness (aspect ratio similarity),0.0083,1.0,0.5707671303451829,0.5556,0.2710583850475685,0.3613,0.5556,0.8182,0.9286,0.9912,0,770
+Outside_X_Index,feature,float64,Continuous,Fraction of defect outside primary X bounding margin,0.0015,0.8759,0.03336110252447192,0.0101,0.058961169352050105,0.0066,0.0101,0.0235,0.1156,0.1289,0,454
+Edges_X_Index,feature,float64,Continuous,Boundary edge variation along the X direction,0.0144,1.0,0.6105286450283359,0.6364,0.2432769191378931,0.4118,0.6364,0.8,0.9259,1.0,0,818
+Edges_Y_Index,feature,float64,Continuous,Boundary edge variation along the Y direction,0.0484,1.0,0.8134722308088613,0.9474,0.23427362312339203,0.5968,0.9474,1.0,1.0,1.0,0,648
+Outside_Global_Index,feature,float64,Continuous,Global defect position indicator (0 to 1),0.0,1.0,0.5757341576506955,1.0,0.48235199045248917,0.0,1.0,1.0,1.0,1.0,0,3
+LogOfAreas,feature,float64,Continuous,Logarithmic transformation of Pixels_Areas (base 10),0.301,5.1837,2.4923883565172593,2.2406,0.7889298525246498,1.9243,2.2406,2.9149,3.8049,4.0496,0,914
+Log_X_Index,feature,float64,Continuous,Logarithmic transformation of defect X-span,0.301,3.0741,1.3356861411643481,1.1761,0.4816116094203422,1.0,1.1761,1.5185,2.1987,2.243,0,183
+Log_Y_Index,feature,float64,Continuous,Logarithmic transformation of defect Y-span,0.0,4.2587,1.403271303451829,1.3222,0.4543451618411434,1.0792,1.3222,1.7324,2.1004,2.2304,0,217
+Orientation_Index,feature,float64,Continuous,Defect spatial orientation / directional index,-0.991,0.9917,0.08328763523956725,0.0952,0.5008680465381179,-0.3333,0.0952,0.5116,0.7419,0.8372,0,918
+Luminosity_Index,feature,float64,Continuous,Normalized average luminosity index of defect,-0.9989,0.6421,-0.1313050489438434,-0.133,0.14876684035405208,-0.195,-0.133,-0.0666,0.0043,0.0376,0,1522
+SigmoidOfAreas,feature,float64,Continuous,Sigmoid transformation of Pixels_Areas,0.119,1.0,0.5854204533745492,0.5063,0.339451805392955,0.2482,0.5063,0.9998,1.0,1.0,0,388
+Pastry,target_one_hot,int64,Binary,Fault class indicator: Pastry,0.0,1.0,0.08140133951571354,0.0,0.273520941316037,0.0,0.0,0.0,0.0,1.0,0,2
+Z_Scratch,target_one_hot,int64,Binary,Fault class indicator: Z_Scratch,0.0,1.0,0.09788768675940238,0.0,0.2972393075216244,0.0,0.0,0.0,0.0,1.0,0,2
+K_Scatch,target_one_hot,int64,Binary,Fault class indicator: K_Scatch,0.0,1.0,0.20144255538382277,0.0,0.4011812203600127,0.0,0.0,0.0,1.0,1.0,0,2
+Stains,target_one_hot,int64,Binary,Fault class indicator: Stains,0.0,1.0,0.03709428129829984,0.0,0.189041548570245,0.0,0.0,0.0,0.0,0.0,0,2
+Dirtiness,target_one_hot,int64,Binary,Fault class indicator: Dirtiness,0.0,1.0,0.02833590932509016,0.0,0.16597342506682328,0.0,0.0,0.0,0.0,0.0,0,2
+Bumps,target_one_hot,int64,Binary,Fault class indicator: Bumps,0.0,1.0,0.2071097372488408,0.0,0.40533929126635665,0.0,0.0,0.0,1.0,1.0,0,2
+Other_Faults,target_one_hot,int64,Binary,Fault class indicator: Other_Faults,0.0,1.0,0.3467284904688305,0.0,0.4760510487194035,0.0,0.0,1.0,1.0,1.0,0,2

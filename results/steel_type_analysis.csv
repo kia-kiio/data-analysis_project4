@@ -1,0 +1,11 @@
+metric,value
+A300_ones,551
+A400_ones,807
+both_one_rows,0
+both_zero_rows,0
+mutually_exclusive,True
+A300_zeros,807
+A400_zeros,551
+both_one_rows,0
+both_zero_rows,0
+sum_equals_one_rows,1358

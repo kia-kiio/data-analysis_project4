@@ -1,0 +1,10 @@
+feature_1,feature_2,correlation,abs_correlation,kept,removed,redundancy_flag
+TypeOfSteel_A300,TypeOfSteel_A400,-1.0,1.0,TypeOfSteel_A300,TypeOfSteel_A400,high
+Y_Minimum,Y_Maximum,0.9999999994823812,0.9999999994823812,Y_Minimum,Y_Maximum,high
+Pixels_Areas,Sum_of_Luminosity,0.9964377497367728,0.9964377497367728,Pixels_Areas,Sum_of_Luminosity,high
+X_Minimum,X_Maximum,0.9870514376857686,0.9870514376857686,X_Minimum,X_Maximum,high
+X_Perimeter,Sum_of_Luminosity,0.9593084797058763,0.9593084797058763,X_Perimeter,Sum_of_Luminosity,high
+Pixels_Areas,X_Perimeter,0.958034350052457,0.958034350052457,Pixels_Areas,X_Perimeter,high
+X_Perimeter,Y_Perimeter,0.9516016884332977,0.9516016884332977,X_Perimeter,Y_Perimeter,high
+Y_Perimeter,Sum_of_Luminosity,0.9341163960444583,0.9341163960444583,Y_Perimeter,Sum_of_Luminosity,high
+Pixels_Areas,Y_Perimeter,0.9324566072311674,0.9324566072311674,Pixels_Areas,Y_Perimeter,high

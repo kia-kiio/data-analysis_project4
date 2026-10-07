@@ -1,0 +1,23 @@
+{
+  "train_n": 1358,
+  "validation_n": 291,
+  "test_n": 292,
+  "iqr_global_flagged_rows": 582,
+  "iqr_global_flagged_pct": 42.857142857142854,
+  "isolation_global_flagged_rows": 68,
+  "isolation_global_flagged_pct": 5.007363770250368,
+  "both_global_methods_flagged_rows": 68,
+  "top_iqr_features": {
+    "Sum_of_Luminosity": 283,
+    "Pixels_Areas": 275,
+    "Outside_X_Index": 266,
+    "X_Perimeter": 243,
+    "Steel_Plate_Thickness": 166,
+    "Y_Perimeter": 131,
+    "Maximum_of_Luminosity": 106,
+    "Luminosity_Index": 102,
+    "Y_Minimum": 62,
+    "Y_Maximum": 62
+  },
+  "high_corr_pairs": 20
+}

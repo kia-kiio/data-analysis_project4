@@ -1,0 +1,15 @@
+rule,valid_count,invalid_count,invalid_percentage
+X_Minimum_le_X_Maximum,1358,0,0.0
+Y_Minimum_le_Y_Maximum,1358,0,0.0
+Pixels_Areas_positive,1358,0,0.0
+X_Perimeter_positive,1358,0,0.0
+Y_Perimeter_positive,1358,0,0.0
+Steel_Plate_Thickness_positive,1358,0,0.0
+"Edges_Index_in_[0,1]",1358,0,0.0
+"Empty_Index_in_[0,1]",1358,0,0.0
+"Square_Index_in_[0,1]",1358,0,0.0
+"Outside_X_Index_in_[0,1]",1358,0,0.0
+"Edges_X_Index_in_[0,1]",1358,0,0.0
+"Edges_Y_Index_in_[0,1]",1358,0,0.0
+"Outside_Global_Index_in_[0,1]",1358,0,0.0
+"SigmoidOfAreas_in_[0,1]",1358,0,0.0

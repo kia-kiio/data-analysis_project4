@@ -1,0 +1,12 @@
+target,positive_count,positive_rate_pct,unique_values,valid_binary
+Pastry,158,8.140133951571354,2,True
+Z_Scratch,190,9.788768675940238,2,True
+K_Scatch,391,20.14425553838228,2,True
+Stains,72,3.7094281298299845,2,True
+Dirtiness,55,2.833590932509016,2,True
+Bumps,402,20.71097372488408,2,True
+Other_Faults,673,34.672849046883044,2,True
+OneHot_row_sum,1941,100.0,1,True
+zero_label_rows,0,0.0,0,True
+multi_label_rows,0,0.0,0,True
+invalid_label_rows,0,0.0,0,True

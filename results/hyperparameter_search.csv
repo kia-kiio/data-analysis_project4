@@ -1,0 +1,3 @@
+model,best_cv_macro_f1,best_params,n_candidates,search_type,search_seed,runtime_sec
+Logistic_Interpretable,0.6579869886145536,"{""model__C"": 0.5, ""model__solver"": ""lbfgs""}",5,RandomizedSearchCV_5fold,2026,2.0858983959999478
+RandomForest_Nonlinear,0.7776379181963018,"{""max_features"": ""sqrt"", ""min_samples_leaf"": 2, ""n_estimators"": 50}",3,RandomizedSearchCV_5fold,2026,5.699994780999987

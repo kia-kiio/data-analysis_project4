@@ -1,0 +1,11 @@
+model,candidate,n_features,validation_macro_f1,validation_balanced_accuracy,validation_accuracy,runtime_sec,selection_split
+RandomForest_Nonlinear,All_27,27,0.8251083328340528,0.7951599118391783,0.7766323024054983,0.31,Validation (held out from feature selection)
+RandomForest_Nonlinear,GA_33,19,0.8186048734612755,0.7831984605920128,0.7800687285223368,0.29,Validation (held out from feature selection)
+RandomForest_Nonlinear,GA_22,18,0.7947867086007248,0.7764946797283528,0.7594501718213058,0.28,Validation (held out from feature selection)
+RandomForest_Nonlinear,Filter,21,0.7839353229380184,0.7566678483471148,0.7560137457044673,0.31,Validation (held out from feature selection)
+RandomForest_Nonlinear,GA_11,19,0.7808185167687134,0.7583939410830597,0.7663230240549829,0.3,Validation (held out from feature selection)
+Logistic_Interpretable,GA_33,19,0.6481946624803767,0.745458977635976,0.6529209621993127,0.07,Validation (held out from feature selection)
+Logistic_Interpretable,Filter,21,0.6463784559756266,0.7340051756759067,0.6563573883161512,0.07,Validation (held out from feature selection)
+Logistic_Interpretable,All_27,27,0.6444296155708307,0.7336393755490961,0.6529209621993127,0.09,Validation (held out from feature selection)
+Logistic_Interpretable,GA_22,18,0.6382656325579281,0.7303285360203858,0.6529209621993127,0.07,Validation (held out from feature selection)
+Logistic_Interpretable,GA_11,19,0.629017758618599,0.7245520875099473,0.6357388316151202,0.07,Validation (held out from feature selection)

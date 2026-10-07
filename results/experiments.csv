@@ -1,0 +1,10 @@
+Experiment ID,Model,Feature Selection Method,Number of Features,CV Macro F1,Validation Macro F1,Test Macro F1,Balanced Accuracy,Accuracy,Runtime,Seed,Hyperparameter configuration/reference
+EXP_01_Majority_Baseline,Majority_Baseline,None (0 features),0,,0.0736,,0.1429,0.3467,0.001,42,DummyClassifier(strategy=most_frequent)
+EXP_02_Logistic_Baseline,Logistic_Interpretable,All_27,27,0.6579869886145536,0.6444296155708307,,0.7336393755490961,0.6529209621993127,0.0825197469999921,42,tuned; model__C=0.5; model__solver=lbfgs
+EXP_03_RandomForest_Baseline,RandomForest_Nonlinear,All_27,27,0.7776379181963018,0.8288470468293341,,0.8026088217548004,0.7835051546391752,0.2873355039999978,42,tuned; max_features=sqrt; min_samples_leaf=2; n_estimators=50
+EXP_04_Logistic_Filter,Logistic_Interpretable,Correlation_Filter_0.90,21,0.6579869886145536,0.6463784559756266,,0.7340051756759067,0.6563573883161512,0.071838229999912,42,threshold=0.90; tuned; model__C=0.5; model__solver=lbfgs
+EXP_05_RF_Filter,RandomForest_Nonlinear,Correlation_Filter_0.90,21,0.7776379181963018,0.8002126593625399,,0.7783203707422114,0.7835051546391752,0.2074657150000121,42,threshold=0.90; tuned; max_features=sqrt; min_samples_leaf=2; n_estimators=50
+EXP_06_GA_Seed_11,Genetic_Feature_Selection,GA_seed_11,19,0.6490405880416877,0.629017758618599,,0.7245520875099473,0.6357388316151202,0.0349140710000028,11,"pop=6, gen=3, elitism=2, penalty=0.01"
+EXP_06_GA_Seed_22,Genetic_Feature_Selection,GA_seed_22,18,0.6322313860413105,0.6382656325579281,,0.7303285360203858,0.6529209621993127,0.065782502999923,22,"pop=6, gen=3, elitism=2, penalty=0.01"
+EXP_06_GA_Seed_33,Genetic_Feature_Selection,GA_seed_33,19,0.6514759291239098,0.6481946624803767,,0.745458977635976,0.6529209621993127,0.034778666999955,33,"pop=6, gen=3, elitism=2, penalty=0.01"
+EXP_07_FINAL_FROZEN_PIPELINE,RandomForest_Nonlinear,All_27,27,0.7776379181963018,0.8288470468293341,0.8297867601094024,0.819677075186923,0.8116438356164384,0.2604352170000084,42,Frozen pipeline: candidate selected on held-out Validation; fitted on Train+Validation; evaluated once on Test

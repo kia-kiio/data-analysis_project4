@@ -1,0 +1,26 @@
+{
+  "rows": 1941,
+  "feature_count": 27,
+  "target_count": 7,
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "onehot_invalid_rows": 0,
+  "classes": [
+    "Pastry",
+    "Z_Scratch",
+    "K_Scatch",
+    "Stains",
+    "Dirtiness",
+    "Bumps",
+    "Other_Faults"
+  ],
+  "class_counts": {
+    "Pastry": 158,
+    "Z_Scratch": 190,
+    "K_Scatch": 391,
+    "Stains": 72,
+    "Dirtiness": 55,
+    "Bumps": 402,
+    "Other_Faults": 673
+  }
+}

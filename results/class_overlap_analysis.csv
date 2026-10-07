@@ -1,0 +1,3 @@
+class_a,class_b,bidirectional_errors,a_as_b,b_as_a,top_train_separation_features,test_misclassified_examples_in_pair,test_example_indices,analysis_note
+Bumps,Other_Faults,24,10,14,Square_Index|TypeOfSteel_A300|TypeOfSteel_A400|Steel_Plate_Thickness|Edges_Y_Index,24,968|1015|1066|1067|1083|1101|1107|1135|1234|1251|1275|1280|1378|1403|1410|1426|1435|1446|1451|1570,Pair ranked by bidirectional final-Test confusion; feature separation is descriptive and computed from Train distributions.
+Pastry,Other_Faults,13,7,6,Orientation_Index|Edges_Y_Index|Outside_Global_Index|Log_X_Index|Empty_Index,13,24|37|39|57|61|80|97|1273|1274|1307|1520|1588|1737,Pair ranked by bidirectional final-Test confusion; feature separation is descriptive and computed from Train distributions.
